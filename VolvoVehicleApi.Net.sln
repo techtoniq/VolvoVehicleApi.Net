@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{E0931C1C-4270-429D-AC42-E55617B24429}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{EB594FA3-707A-4ED6-A3DE-C901E9E8A8E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6E2E30BA-1427-4CB8-8A17-91950F89B2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoConnectedVehicleApi", "Src\VolvoConnectedVehicleApi\VolvoConnectedVehicleApi.csproj", "{75772C44-4BE5-49E5-B583-22E6F1C727EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoConnectedVehicleApi.IntegrationTest", "Test\VolvoConnectedVehicleApi.IntegrationTest\VolvoConnectedVehicleApi.IntegrationTest.csproj", "{2A701C3F-7BB3-4E56-B226-E514EF82D7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoExtendedVehicleApi", "Src\VolvoExtendedVehicleApi\VolvoExtendedVehicleApi.csproj", "{B224AA41-A75C-4AEA-A548-55F82684FC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoExtendedVehicleApi.IntegrationTest", "Test\VolvoExtendedVehicleApi.IntegrationTest\VolvoExtendedVehicleApi.IntegrationTest.csproj", "{A34784C6-EB82-4AF1-9D87-1A7108F21EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75772C44-4BE5-49E5-B583-22E6F1C727EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75772C44-4BE5-49E5-B583-22E6F1C727EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75772C44-4BE5-49E5-B583-22E6F1C727EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75772C44-4BE5-49E5-B583-22E6F1C727EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A701C3F-7BB3-4E56-B226-E514EF82D7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A701C3F-7BB3-4E56-B226-E514EF82D7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A701C3F-7BB3-4E56-B226-E514EF82D7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A701C3F-7BB3-4E56-B226-E514EF82D7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B224AA41-A75C-4AEA-A548-55F82684FC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B224AA41-A75C-4AEA-A548-55F82684FC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B224AA41-A75C-4AEA-A548-55F82684FC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B224AA41-A75C-4AEA-A548-55F82684FC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34784C6-EB82-4AF1-9D87-1A7108F21EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34784C6-EB82-4AF1-9D87-1A7108F21EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34784C6-EB82-4AF1-9D87-1A7108F21EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34784C6-EB82-4AF1-9D87-1A7108F21EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75772C44-4BE5-49E5-B583-22E6F1C727EE} = {EB594FA3-707A-4ED6-A3DE-C901E9E8A8E4}
+		{2A701C3F-7BB3-4E56-B226-E514EF82D7CA} = {6E2E30BA-1427-4CB8-8A17-91950F89B2FE}
+		{B224AA41-A75C-4AEA-A548-55F82684FC41} = {EB594FA3-707A-4ED6-A3DE-C901E9E8A8E4}
+		{A34784C6-EB82-4AF1-9D87-1A7108F21EC4} = {6E2E30BA-1427-4CB8-8A17-91950F89B2FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56094CEA-5B89-4CE0-AD4C-85210B2B7318}
+	EndGlobalSection
+EndGlobal

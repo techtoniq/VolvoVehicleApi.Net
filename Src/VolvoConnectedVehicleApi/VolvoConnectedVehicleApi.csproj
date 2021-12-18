@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Copyright>Copyright © Techtoniq Ltd</Copyright>
+    <Company>Techtoniq Ltd</Company>
+    <Authors>Matt Daniels</Authors>
+    <PackageLicenseUrl>https://github.com/techtoniq/VolvoVehicleApi.Net/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/techtoniq/VolvoVehicleApi.Net</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
